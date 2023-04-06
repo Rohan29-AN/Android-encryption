@@ -1,4 +1,4 @@
-package com.example.toasty;
+package com.example.shuttt29;
 
 import org.junit.Test;
 

@@ -1,17 +1,14 @@
-package com.example.toasty;
+package com.example.shuttt29;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+public class AESActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
-        Toaster.ShowToast(this,"Hello");
+        setContentView(R.layout.activity_aesactivity);
     }
-
 }

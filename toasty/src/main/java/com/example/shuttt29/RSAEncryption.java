@@ -1,19 +1,12 @@
-package com.example.toasty;
+package com.example.shuttt29;
 
-import static com.example.toasty.EncryptionUtilities.decode;
-
-import android.util.Base64;
-
-import androidx.annotation.Nullable;
+import static com.example.shuttt29.EncryptionUtilities.decode;
 
 import java.security.InvalidKeyException;
 import java.security.KeyFactory;
-import java.security.KeyPair;
-import java.security.KeyPairGenerator;
 import java.security.NoSuchAlgorithmException;
 import java.security.PrivateKey;
 import java.security.PublicKey;
-import java.security.spec.InvalidKeySpecException;
 import java.security.spec.PKCS8EncodedKeySpec;
 import java.security.spec.X509EncodedKeySpec;
 

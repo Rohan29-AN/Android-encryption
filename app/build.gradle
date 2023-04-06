@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace 'com.example.toasty'
+    namespace 'com.example.shuttt29'
     compileSdk 33
 
     defaultConfig {
