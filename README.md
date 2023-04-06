@@ -52,20 +52,20 @@ allprojects {
 	
 ```
 
-#Contributing
+# Contributing
 	* Fork it
 	* Create your feature branch (git checkout -b my-new-feature)
 	* Commit your changes (git commit -am 'Added some feature')
 	* Push to the branch (git push origin my-new-feature)
 	* Create new Pull Request
 	
-#TO-DO LISTS
+#T O-DO LISTS
 	* Test
 	* Refactoring the code to have the stable version 1.0 😁
 	* Addition of new encryption algorithms
 	* .....
 
-#Licence
+# Licence
 Copyright (c) 2023 Rohan29-AN
 
 
