@@ -1,5 +1,7 @@
 package com.example.toasty;
 
+import android.util.Base64;
+
 public class EncryptionUtilities {
 
     /**
@@ -26,4 +28,13 @@ public class EncryptionUtilities {
             return null;
         }
     }
+
+
+    public static String encode(byte[] data) {
+        return Base64.encodeToString(data,Base64.DEFAULT);
+    }
+    public static byte[] decode(String data) {
+        return Base64.decode(data,Base64.DEFAULT);
+    }
+
 }

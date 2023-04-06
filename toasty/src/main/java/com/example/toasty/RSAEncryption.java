@@ -1,5 +1,7 @@
 package com.example.toasty;
 
+import static com.example.toasty.EncryptionUtilities.decode;
+
 import android.util.Base64;
 
 import androidx.annotation.Nullable;
@@ -69,7 +71,7 @@ public class RSAEncryption {
             Cipher cipher = Cipher.getInstance("RSA/ECB/OAEPWithSHA1AndMGF1Padding");
             cipher.init(Cipher.ENCRYPT_MODE, publicKey);
             byte[] encryptedBytes = cipher.doFinal(messageToBytes);
-            return encode(encryptedBytes);
+            return EncryptionUtilities.encode(encryptedBytes);
         }
         catch (NoSuchAlgorithmException | NoSuchPaddingException | InvalidKeyException | IllegalBlockSizeException | BadPaddingException e) {
             throw new Exception("Error during encryption: " + e.getMessage(), e);
@@ -97,11 +99,6 @@ public class RSAEncryption {
 
     }
 
-    private static String encode(byte[] data) {
-        return Base64.encodeToString(data,Base64.DEFAULT);
-    }
-    private static byte[] decode(String data) {
-        return Base64.decode(data,Base64.DEFAULT);
-    }
+
 
 }
