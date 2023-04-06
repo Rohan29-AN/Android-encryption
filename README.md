@@ -59,7 +59,7 @@ allprojects {
 	* Push to the branch (git push origin my-new-feature)
 	* Create new Pull Request
 	
-#T O-DO LISTS
+# TO-DO LISTS
 	* Test
 	* Refactoring the code to have the stable version 1.0 😁
 	* Addition of new encryption algorithms
