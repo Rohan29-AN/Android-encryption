@@ -30,7 +30,7 @@ allprojects {
 	
 ```
 
-> **Decryption:**For decryption, this is the same as encryption, but the only difference is that the **isEncryption** variable must be *false*.
+> **Decryption:** For decryption, this is the same as encryption, but the only difference is that the **isEncryption** variable must be *false*.
 
 ```java
 	String data=EncryptionUtilities.EncryptOrDecryptRSA(false,"ree45d8d8fd8fd5f4df5d4f",_keyPrivate);
